@@ -1,0 +1,29 @@
+name:                sudoku-solver
+version:             0.0.1.0
+github:              "nshimaza/sudoku-solver"
+license:             MIT
+author:              "Naoto Shimazaki"
+maintainer:          "Naoto.Shimazaki@gmail.com"
+copyright:           "2018 Naoto Shimazaki"
+
+extra-source-files:
+- README.md
+- ChangeLog.md
+
+# Metadata used when publishing your package
+# synopsis:            Short description of your package
+# category:            Web
+
+# To avoid duplicated efforts in documentation and dealing with the
+# complications of embedding Haddock markup inside cabal files, it is
+# common to point users to the README.md file.
+description:         Please see the README on GitHub at <https://github.com/githubuser/sudoku-solver#readme>
+
+dependencies:
+- base >= 4.7 && < 5
+- containers
+
+executables:
+  sudoku-solver-exe:
+    main:                Main.hs
+    source-dirs:         app
